@@ -10,4 +10,5 @@ import { AnimeDetailComponent } from './anime-detail/anime-detail.component';
   exports: [AnimeListComponent],
   declarations: [AnimeListComponent, AnimeDetailComponent]
 })
+
 export class AnimeModule { }

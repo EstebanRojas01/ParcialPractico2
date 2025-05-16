@@ -6,7 +6,8 @@ import { AnimeDetailComponent } from './anime/anime-detail/anime-detail.componen
 
 const routes: Routes = [
   { path: '', component: AnimeListComponent },
-  { path: 'animes', loadChildren: () => import('./anime/anime.module').then(m => m.AnimeModule) },
+  { path: 'anime', loadChildren: () => import('./anime/anime.module').then(m => m.AnimeModule) },
+  {path: 'id', component: AnimeDetailComponent},
 
 ];
 
